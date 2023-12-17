@@ -1,0 +1,30 @@
+.steep {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.266);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+.steep input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid black;
+}
+.btn {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+.steep button {
+  background-color: green;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
