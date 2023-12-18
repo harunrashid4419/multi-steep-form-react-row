@@ -17,14 +17,11 @@ function App() {
         return <ThirdForm />;
     }
   };
+  console.log(steep)
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>MultiSteep form</h1>
-      <div className="steep-header">
-        <SteepHeader />
-        <SteepHeader />
-        <SteepHeader />
-      </div>
+      <SteepHeader />
       {showSteep(steep)}
     </div>
   );

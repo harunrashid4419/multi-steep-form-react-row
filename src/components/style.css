@@ -28,3 +28,49 @@
   cursor: pointer;
   width: 100%;
 }
+
+.steeps {
+  display: flex;
+  justify-content: space-between;
+  z-index: 9;
+  position: relative;
+}
+.steep-heading {
+  width: 50%;
+  margin: 20px auto;
+  position: relative;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: #000;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+.icon {
+  background: green;
+  font-size: 24px;
+  color: white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  .steep{
+    padding: 20px;
+    width: 100%;
+  }
+  .steep-heading{
+    width: 100%;
+  }
+}
